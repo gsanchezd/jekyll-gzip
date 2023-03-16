@@ -4,17 +4,8 @@ module Jekyll
   module Gzip
     DEFAULT_CONFIG = {
       'extensions' => [
-        '.html',
         '.css',
-        '.js',
-        '.json',
-        '.txt',
-        '.ttf',
-        '.atom',
-        '.stl',
-        '.xml',
-        '.svg',
-        '.eot'
+        '.js'
       ].freeze,
       'replace_files' => false
     }.freeze
